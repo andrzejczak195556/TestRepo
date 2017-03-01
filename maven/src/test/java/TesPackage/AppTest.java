@@ -3,6 +3,7 @@ package TesPackage;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import static org.assertj.core.api.Assertions.*;
 
 /**
  * Unit test for simple App.
@@ -31,8 +32,8 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
+    public void testAssertJ()
     {
-        assertTrue( true );
+        assertThat(true);
     }
 }
